@@ -1,0 +1,24 @@
+.card1
+{
+    background: #1fd100;  
+    background: -webkit-linear-gradient(rgb(22, 56, 247),rgb(22, 56, 247),rgb(22, 56, 247),#1fd100 ); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgb(22, 56, 247),rgb(22, 56, 247),rgb(22, 56, 247),#1fd100 ); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(22, 56, 247),rgb(22, 56, 247),rgb(22, 56, 247),#1fd100 ); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgb(22, 56, 247),rgb(22, 56, 247),rgb(22, 56, 247),#1fd100); /* Standard syntax */
+    
+}
+.logo
+{
+    background: #1fd100 !important;  
+    background: -webkit-linear-gradient(#1fd100,#1fd100,#1fd100, rgb(22, 56, 247)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#1fd100,#1fd100,#1fd100, rgb(22, 56, 247)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#1fd100,#1fd100,#1fd100, rgb(22, 56, 247)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#1fd100,#1fd100,#1fd100, rgb(22, 56, 247)); /* Standard syntax */
+}
+.forced-btn
+{
+    position: absolute !important;
+    margin-top: 0.5em;
+    margin-left: 1em;
+    z-index:300 !important;
+}
