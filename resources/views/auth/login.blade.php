@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>GV::Login</title>
+  <title>Nyayo:Login</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
@@ -55,7 +55,7 @@ $(function(){
   <setion class="login-wrapper">
   @include('pages.components.ifmessage')
     <div class="logo">
-    <a href="{{ url('/home') }}" class="logo"><img class="img-fluid able-logo" src="{{ asset('assets/images/logow.png') }}" alt="Theme-logo"></a>
+    <a href="{{ url('/') }}" class="logo"><img class="img-fluid able-logo" src="{{ asset('assets/images/logow.png') }}" alt="Theme-logo"></a>
     </div>
     
     @error('phone')
